@@ -1,0 +1,48 @@
+.logo {
+
+    width: 7rem;
+
+}
+
+nav {
+    color: white;
+}
+
+.par {
+
+    margin-bottom: .3rem;
+    text-decoration: none;
+    color: white;
+}
+
+#compra {
+    color: green;
+}
+
+.brilloOscuro {
+    filter: brightness(50%);
+}
+
+.tx {
+    font-size: 1.3rem;
+}
+
+.card-img-top {
+
+    width: 100;
+    height: 26rem;
+}
+
+.fs-5 {
+    font-style: normal;
+font-weight: bold;
+    font-size: 5rem;
+}
+
+.btn{
+
+    font-weight: bold;
+    padding: 0rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
