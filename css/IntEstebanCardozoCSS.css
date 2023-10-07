@@ -39,10 +39,17 @@ font-weight: bold;
     font-size: 5rem;
 }
 
-.btn{
+.btn-sm{
 
     font-weight: bold;
     padding: 0rem;
     padding-left: .5rem;
     padding-right: .5rem;
 }
+
+.bgGrisOscuro {
+    background-color: rgb(65, 65, 65);
+}
+
+#baoct{
+    margin-top: 2.5rem;}

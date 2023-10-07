@@ -8,7 +8,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="IntEstebanCardozoCSS.css">
+    <link rel="stylesheet" href="/css/IntEstebanCardozoCSS.css">
 
 </head>
 
@@ -27,13 +27,13 @@
             <a href="" class="par">Los oradores</a>
             <a href="" class="par">El lugar y la fecha</a>
             <a href="" class="par">Conviértete en orador</a>
-            <a href="" class="par " id="compra">Comprar tickets</a>
+            <a href="ticket/ticketComprar.html" class="par " id="compra">Comprar tickets</a>
 
         </div>
 
     </nav>
 
-    <!-- carrusel -->
+
     <div>
         <div id="carouselExampleCaptions" class="carousel slide">
             <div class="carousel-indicators">
@@ -163,7 +163,7 @@
     <div class="d-flex justify-content-center flex-wrap">
 
 
-        <!-- orador -->
+
         <div class="card mx-1" style="width: 18rem;">
             <img src="/imagenes_integrador_front/340325_ori__20160615110145_lisandro_lopez.png" class="card-img-top"
                 alt="steve">
@@ -182,7 +182,7 @@
             </div>
         </div>
 
-        <!-- orador -->
+
         <div class="card mx-1" style="width: 18rem;">
             <img src="/imagenes_integrador_front/jfru.jpg.webp" class="card-img-top" alt="steve">
             <div class="card-body">
@@ -200,7 +200,7 @@
             </div>
         </div>
 
-        <!-- orador -->
+
         <div class="card mx-1" style="width: 18rem;">
             <img src="/imagenes_integrador_front/mike.jpg" class="card-img-top" alt="steve">
             <div class="card-body">
@@ -216,6 +216,73 @@
             </div>
         </div>
     </div>
+
+    <div class="container-fluid" id="baoct">
+        <div class="row ">
+            <div class="col-lg p-0">
+                <img src="/imagenes_integrador_front/honolulu.jpg" alt="honolulu" class="img-fluid">
+            </div>
+            <div class="col-lg bgGrisOscuro text-white">
+                <div class="fs-4 mt-1 mb-3">
+                    Bs As - Octubre
+                </div>
+                <div class="mb-3">
+                    Buenos Aires es la provincia y la localidad más grande de Argentina, en los Estados Unidos. Honolulu
+                    es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se
+                    refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu
+                    han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km2 de
+                    superficie).
+                </div>
+                <div>
+                    <a href="#" class="btn btn-outline-light" id="conocer">Conocé más</a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container text-center mb-3">
+        <div class="mt-2 mb-1">
+            CONVIÉRTETE EN UN
+        </div>
+        <div class="fs-3">
+            ORADOR
+        </div>
+        <div class="mb-3">
+            Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!
+        </div>
+        <div>
+            <form action="/server/compraTicketProcesar.html" method="post">
+                <div class="row ">
+                    <div class="col-md mb-3">
+                        <input type="text" name="nombre" id="nombre" placeholder="Nombre" class="form-control">
+                    </div>
+                    <div class="col-md mb-3 ">
+                        <input type="text" name="apellido" id="apellido" placeholder="Apellido" class="form-control">
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-md mb-3">
+                        <textarea name="tema" id="tema" rows="5" class="form-control"
+                            placeholder="Sobre qué quieres hablar?"></textarea>
+                        <div class="small text-start">Recuerda incluir un título para tu charla</div>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col mb-3">
+                        <input type="submit" value="Enviar" class="btn btn-success">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
 
 
 
