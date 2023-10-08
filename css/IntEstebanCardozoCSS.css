@@ -35,11 +35,11 @@ nav {
 
 .fs-5 {
     font-style: normal;
-font-weight: bold;
+    font-weight: bold;
     font-size: 5rem;
 }
 
-.btn-sm{
+.btn-sm {
 
     font-weight: bold;
     padding: 0rem;
@@ -51,5 +51,33 @@ font-weight: bold;
     background-color: rgb(65, 65, 65);
 }
 
-#baoct{
-    margin-top: 2.5rem;}
+#baoct {
+    margin-top: 2.5rem;
+}
+
+.enviar {
+    background-color: rgb(154, 224, 50);
+    color: white;
+    font-weight: 1rem;
+    text-align: center;
+    font-size: larger;
+    padding-left: 27.5rem;
+    padding-right: 27.5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.formu {
+    max-width: 60rem;
+}
+
+footer {
+
+    background-color: rgb(48, 91, 118);
+}
+
+
+
+.pp {
+    color: white;
+}
