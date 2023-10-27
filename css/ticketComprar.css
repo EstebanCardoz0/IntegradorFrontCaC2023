@@ -6,27 +6,107 @@
 
 .container {
 
-    max-width: 70rem;
-    margin-top: 4rem;
+    margin-top: 1rem;
+    max-width: 55rem;
 }
 
 .boti {
     align-content: center;
+    background-color: rgb(171, 205, 228);
 }
 
 .modu {
 
-    border: 1px solid red;
     text-align: center;
     padding-top: 1.5rem;
     padding-bottom: .5rem;
     margin: 1rem;
-    margin-bottom: 2rem;
-
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: .5rem;
+    /* font-weight: bold; */
+    max-width: 18rem;
 }
 
 .mod {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     align-items: center;
 
+}
+
+#jun {
+
+    border: 2px solid orange;
+}
+
+#trai {
+
+    border: 2px solid green;
+}
+
+#estu {
+
+    border: 2px solid blue;
+}
+
+.porcentaje {
+    font-size: large;
+    font-weight: bold;
+}
+
+.docu {
+    font-size: .89rem;
+    color: rgb(65, 63, 63);
+}
+
+footer {
+
+    background-color: rgb(48, 91, 118);
+}
+
+.pp {
+    color: white;
+}
+
+.VENTA {
+    text-align: center;
+}
+
+.tit {
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.lab {
+    margin-bottom: .5rem;
+}
+
+.total {
+    padding-left: 2rem;
+    padding-top: 1rem;
+
+    border-radius: .5rem;
+}
+
+.pago {
+
+    font-size: 1.2rem;
+    color: rgb(45, 45, 175);
+    font-weight: 470;
+
+
+}
+
+.col-5 {
+    background-color: rgb(149, 201, 71);
+
+
+
+    color: white;
+}
+
+.col-5:hover{
+    color: white;
+
+    background-color: rgb(194, 240, 125);
 }

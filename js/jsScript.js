@@ -19,7 +19,7 @@
 })()
 
 function calcTotal() {
-    const precio = 1000
+    const precio = 200
     console.log("Ingreso a calcTotal")
 
     let cant = document.getElementById("cant").value
@@ -35,7 +35,7 @@ function calcTotal() {
 
 
         // document.getElementById("total").style.color="red"
-        document.getElementById("total").className = "bg-info p-1"
+        document.getElementById("total").className = " p-1"
         document.getElementById("total").innerHTML = total
 
     } else {
@@ -47,3 +47,4 @@ function calcTotal() {
 
 
 }
+
