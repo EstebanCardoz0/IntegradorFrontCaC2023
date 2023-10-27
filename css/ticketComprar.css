@@ -10,6 +10,23 @@
     margin-top: 4rem;
 }
 
-.boti{
-align-content: center;
+.boti {
+    align-content: center;
+}
+
+.modu {
+
+    border: 1px solid red;
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: .5rem;
+    margin: 1rem;
+    margin-bottom: 2rem;
+
+}
+
+.mod {
+    border: 1px solid green;
+    align-items: center;
+
 }
